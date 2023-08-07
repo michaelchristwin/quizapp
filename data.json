@@ -1,0 +1,2336 @@
+[
+  {
+    "qType": "Section 1: Listening Test (Part 1: Photographs)",
+    "question": "`Listen `to the recording and choose the best answer.",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correctAnswer": 3,
+    "audio": "themanispushing_toeic1_dk_vo.mp3",
+    "image": "img/1-10_toeic1.png"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 1: Photographs)",
+    "question": "Listen to the recording and choose the best answer.",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correctAnswer": 1,
+    "audio": "thewomanismopping_toeic1_dk_vo.mp3",
+    "image": "img/sweepdeck.jpg"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 1: Photographs)",
+    "question": "Listen to the recording and choose the best answer.",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correctAnswer": 1,
+    "audio": "thewomenarewalking_toeic1_dk_vo.mp3",
+    "image": "img/womenrun.jpg"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 1: Photographs)",
+    "question": "Listen to the recording and choose the best answer.",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correctAnswer": 1,
+    "audio": "theteamisswimming_toeic1_dk_vo.mp3",
+    "image": "img/row.jpg"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 1: Photographs)",
+    "question": "Listen to the recording and choose the best answer.",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correctAnswer": 1,
+    "audio": "themanisdoingahandstand_toeic1_dk_vo.mp3",
+    "image": "img/present.jpg"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 1: Photographs)",
+    "question": "Listen to the recording and choose the best answer.",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correctAnswer": 0,
+    "audio": "theimageisoneofsomeone_toeic1_dk_vo.mp3",
+    "image": "img/drive.jpg"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 1: Photographs)",
+    "question": "Listen to the recording and choose the best answer.",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correctAnswer": 1,
+    "audio": "themenarejogging_toeic1_dk_vo.mp3",
+    "image": "img/cycling.jpg"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 1: Photographs)",
+    "question": "Listen to the recording and choose the best answer.",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correctAnswer": 1,
+    "audio": "theadultsarebuilding_toeic1_dk_vo.mp3",
+    "image": "img/house.jpg"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 1: Photographs)",
+    "question": "Listen to the recording and choose the best answer.",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correctAnswer": 2,
+    "audio": "themancarriesabackpack_toeic1_dk_vo.mp3",
+    "image": "img/bookbag.jpg"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 1: Photographs)",
+    "question": "Listen to the recording and choose the best answer.",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correctAnswer": 0,
+    "audio": "thestaffworkon_toeic1_dk_vo.mp3",
+    "image": "img/office.jpg"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 2: Question-Response)",
+    "question": "Listen to the recording and choose the best answer.",
+    "choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "correctAnswer": 2,
+    "audio": "11_toeic1_daniela_vo_DONE.mp3",
+    "image": "img/11-40_toeic1.png"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 2: Question-Response)",
+    "question": "Listen to the recording and choose the best answer.",
+    "choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "correctAnswer": 0,
+    "audio": "12_toeic1_daniela_vo_DONE.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 2: Question-Response)",
+    "question": "Listen to the recording and choose the best answer.",
+    "choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "correctAnswer": 0,
+    "audio": "13_toeic1_daniela_vo_DONE.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 2: Question-Response)",
+    "question": "Listen to the recording and choose the best answer.",
+    "choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "correctAnswer": 2,
+    "audio": "14_toeic1_daniela_vo_DONE.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 2: Question-Response)",
+    "question": "Listen to the recording and choose the best answer.",
+    "choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "correctAnswer": 0,
+    "audio": "15_toeic1_daniela_vo_DONE.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 2: Question-Response)",
+    "question": "Listen to the recording and choose the best answer.",
+    "choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "correctAnswer": 1,
+    "audio": "16_toeic1_daniela_vo_DONE.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 2: Question-Response)",
+    "question": "Listen to the recording and choose the best answer.",
+    "choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "correctAnswer": 0,
+    "audio": "17_toeic1_daniela_vo_DONE.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 2: Question-Response)",
+    "question": "Listen to the recording and choose the best answer.",
+    "choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "correctAnswer": 0,
+    "audio": "18_toeic1_daniela_vo_DONE.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 2: Question-Response)",
+    "question": "Listen to the recording and choose the best answer.",
+    "choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "correctAnswer": 0,
+    "audio": "19_toeic1_daniela_vo_DONE.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 2: Question-Response)",
+    "question": "Listen to the recording and choose the best answer.",
+    "choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "correctAnswer": 0,
+    "audio": "20_toeic1_daniela_vo_DONE.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 2: Question-Response)",
+    "question": "Listen to the recording and choose the best answer.",
+    "choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "correctAnswer": 0,
+    "audio": "21_toeic1_daniela_vo.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 2: Question-Response)",
+    "question": "Listen to the recording and choose the best answer.",
+    "choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "correctAnswer": 0,
+    "audio": "22_toeic1_daniela_vo_DONE.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 2: Question-Response)",
+    "question": "Listen to the recording and choose the best answer.",
+    "choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "correctAnswer": 0,
+    "audio": "23_toeic1_daniela_vo_DONE.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 2: Question-Response)",
+    "question": "Listen to the recording and choose the best answer.",
+    "choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "correctAnswer": 2,
+    "audio": "24_toeic1_daniela_vo_DONE.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 2: Question-Response)",
+    "question": "Listen to the recording and choose the best answer.",
+    "choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "correctAnswer": 0,
+    "audio": "25_toeic1_daniela_vo_DONE.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 2: Question-Response)",
+    "question": "Listen to the recording and choose the best answer.",
+    "choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "correctAnswer": 0,
+    "audio": "26_toeic1_daniela_vo.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 2: Question-Response)",
+    "question": "Listen to the recording and choose the best answer.",
+    "choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "correctAnswer": 0,
+    "audio": "27_toeic1_daniela_vo_DONE.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 2: Question-Response)",
+    "question": "Listen to the recording and choose the best answer.",
+    "choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "correctAnswer": 0,
+    "audio": "28_toeic1_daniela_vo_DONE.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 2: Question-Response)",
+    "question": "Listen to the recording and choose the best answer.",
+    "choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "correctAnswer": 0,
+    "audio": "29_toeic1_mwh_vo.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 2: Question-Response)",
+    "question": "Listen to the recording and choose the best answer.",
+    "choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "correctAnswer": 0,
+    "audio": "30_toeic1_daniela_vo_DONE.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 2: Question-Response)",
+    "question": "Listen to the recording and choose the best answer.",
+    "choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "correctAnswer": 2,
+    "audio": "31_toeic1_daniela_vo_DONE.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 2: Question-Response)",
+    "question": "Listen to the recording and choose the best answer.",
+    "choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "correctAnswer": 0,
+    "audio": "32_toeic1_mwh_vo.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 2: Question-Response)",
+    "question": "Listen to the recording and choose the best answer.",
+    "choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "correctAnswer": 0,
+    "audio": "33_toeic1_daniela_vo_DONE.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 2: Question-Response)",
+    "question": "Listen to the recording and choose the best answer.",
+    "choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "correctAnswer": 1,
+    "audio": "34_toeic1_daniela_vo_DONE.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 2: Question-Response)",
+    "question": "Listen to the recording and choose the best answer.",
+    "choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "correctAnswer": 0,
+    "audio": "35_toeic1_daniela_vo_DONE.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 2: Question-Response)",
+    "question": "Listen to the recording and choose the best answer.",
+    "choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "correctAnswer": 0,
+    "audio": "36_toeic1_daniela_vo_DONE.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 2: Question-Response)",
+    "question": "Listen to the recording and choose the best answer.",
+    "choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "correctAnswer": 2,
+    "audio": "37_toeic1_daniela_vo_DONE.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 2: Question-Response)",
+    "question": "Listen to the recording and choose the best answer.",
+    "choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "correctAnswer": 2,
+    "audio": "38_toeic1_daniela_vo_DONE.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 2: Question-Response)",
+    "question": "Listen to the recording and choose the best answer.",
+    "choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "correctAnswer": 1,
+    "audio": "39_toeic1_mwh_vo.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 2: Question-Response)",
+    "question": "Listen to the recording and choose the best answer.",
+    "choices": [
+      "A",
+      "B",
+      "C"
+    ],
+    "correctAnswer": 0,
+    "audio": "40_toeic1_daniela_vo_DONE.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 3: Conversations)",
+    "question": "What does hp mean?",
+    "choices": [
+      "A) high-powered",
+      "B) horse-power",
+      "C) hello purpose",
+      "D) hue purple"
+    ],
+    "correctAnswer": 1,
+    "audio": "41-45_toeic1_daniela_vo_DONE.mp3",
+    "image": "img/41-66_toeic1.png"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 3: Conversations)",
+    "question": "How can the woman increase her boat speed?",
+    "choices": [
+      "A) Put her foot on the gas harder",
+      "B) Recharge the boat again",
+      "C) Swap out the aluminum propeller for a stainless steel one",
+      "D) Swap out the stainless steel propeller for an aluminum one"
+    ],
+    "correctAnswer": 2,
+    "audio": "41-45_toeic1_daniela_vo_DONE.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 3: Conversations)",
+    "question": "What is the name of the shop where Mark works?",
+    "choices": [
+      "A) Water Works",
+      "B) Sporty Marine",
+      "C) The Boat Spot",
+      "D) Boat Chalet"
+    ],
+    "correctAnswer": 3,
+    "audio": "41-45_toeic1_daniela_vo_DONE.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 3: Conversations)",
+    "question": "What percent increase might the woman get on her boat speed by making the purchase recommended by Mark?",
+    "choices": [
+      "A) 30%",
+      "B) 50%",
+      "C) 60%",
+      "D) 100%"
+    ],
+    "correctAnswer": 2,
+    "audio": "41-45_toeic1_daniela_vo_DONE.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 3: Conversations)",
+    "question": "What is the woman planning on purchasing from Mark’s shop?",
+    "choices": [
+      "A) 8 hp motor",
+      "B) 10 hp motor and a stainless steel propeller",
+      "C) 10 hp motor and an aluminum propeller",
+      "D) 8 hp motor and a stainless steel propeller"
+    ],
+    "correctAnswer": 1,
+    "audio": "41-45_toeic1_daniela_vo_DONE.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 3: Conversations)",
+    "question": "Why is the customer calling the agent?",
+    "choices": [
+      "A) She is having random panic attacks and needs help.",
+      "B) She is having random wifi drop-offs at home.",
+      "C) She is having random wifi drop-offs at her workplace.",
+      "D) She is having random animals show up on her doorstep."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 3: Conversations)",
+    "question": "What is the final solution that the Agent recommends to the Customer as part of this call?",
+    "choices": [
+      "A) Have workers show up to her home to help.",
+      "B) Unplug the modem for sixty seconds and then plug it back in again.",
+      "C) Turn off all the power in the house for sixty minutes and then turn it back on again.",
+      "D) Bring her modem and computer in to a repair shop to get the wifi issue fixed."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 3: Conversations)",
+    "question": "What does 'down the road' mean?",
+    "choices": [
+      "A) Later on sometime (not specific)",
+      "B) Today",
+      "C) Tomorrow",
+      "D) This weekend"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 3: Conversations)",
+    "question": "What is the name of the new employee who is being trained?",
+    "choices": [
+      "A) David",
+      "B) Irene",
+      "C) Melanie",
+      "D) Frank"
+    ],
+    "correctAnswer": 1,
+    "audio": "49-53_toeic1.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 3: Conversations)",
+    "question": "When will David return to work?",
+    "choices": [
+      "A) Next week with Melanie",
+      "B) Next week without Melanie",
+      "C) The next shift",
+      "D) David will probably not return to work at all."
+    ],
+    "correctAnswer": 3,
+    "audio": "49-53_toeic1.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 3: Conversations)",
+    "question": "How long will the new trainee have to learn to operate two cash registers, software systems, and filling out her timecard?",
+    "choices": [
+      "A) over a month",
+      "B) over a year",
+      "C) under a month",
+      "D) over six months"
+    ],
+    "correctAnswer": 2,
+    "audio": "49-53_toeic1.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 3: Conversations)",
+    "question": "Why is David not at work?",
+    "choices": [
+      "A) Melanie is delivering their baby.",
+      "B) His wife, Alexis, is delivering their baby.",
+      "C) He is being flaky.",
+      "D) He forgot how to get to work."
+    ],
+    "correctAnswer": 1,
+    "audio": "49-53_toeic1.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 3: Conversations)",
+    "question": "By when is Irene supposed to be trained on the current cash register and on filling out her timecard?",
+    "choices": [
+      "A) by the following day",
+      "B) by the following week",
+      "C) by the following Friday",
+      "D) by the current Friday"
+    ],
+    "correctAnswer": 3,
+    "audio": "49-53_toeic1.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 3: Conversations)",
+    "question": "What’s the HR Manager’s name?",
+    "choices": [
+      "A) Reem",
+      "B) Kozeta",
+      "C) Angie",
+      "D) Aurora"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 3: Conversations)",
+    "question": "What does the acronym FTE mean?",
+    "choices": [
+      "A) for the end",
+      "B) found time energy",
+      "C) full-time employee",
+      "D) full-time effort"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 3: Conversations)",
+    "question": "How many paid sick days off per calendar year do FTEs get at the company?",
+    "choices": [
+      "A) 10",
+      "B) 15",
+      "C) 21",
+      "D) 30"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 3: Conversations)",
+    "question": "What is the holiday leave policy at the company per calendar year?",
+    "choices": [
+      "A) FTEs get 21 paid days off for holidays.",
+      "B) FTEs get 30 paid days off for holidays.",
+      "C) FTEs get 21 unpaid days off for holidays.",
+      "D) FTEs get 15 unpaid days off for holidays."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 3: Conversations)",
+    "question": "How many years has the employee been working for the company?",
+    "choices": [
+      "A) One",
+      "B) Two",
+      "C) Three",
+      "D) Four"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 3: Conversations)",
+    "question": "What programs have dropped in registration numbers this past year?",
+    "choices": [
+      "A) Graduate programs",
+      "B) Undergraduate programs",
+      "C) Certificate programs",
+      "D) Hybrid programs"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 3: Conversations)",
+    "question": "What programs have increased in registrations this past year?",
+    "choices": [
+      "A) Graduate programs",
+      "B) Undergraduate programs",
+      "C) Certificate programs",
+      "D) Hybrid programs"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 3: Conversations)",
+    "question": "Who is calling the special meeting?",
+    "choices": [
+      "A) the CEO of the school",
+      "B) the Dean of the school",
+      "C) the Assistant to the CEO of the school",
+      "D) the Director of Admissions of the school"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 3: Conversations)",
+    "question": "What do the two employees NOT mention as potential reasons why there needs to be a special meeting about registration for graduate programs?",
+    "choices": [
+      "A) Social media campaigns may not have worked.",
+      "B) Students don’t get a legitimate degree/diploma.",
+      "C) Their school attended fewer online college fairs this year.",
+      "D) Their school attended fewer in-person college fairs this year."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 3: Conversations)",
+    "question": "How long is Michel going to be out of the office?",
+    "choices": [
+      "A) A week",
+      "B) A month",
+      "C) Six months",
+      "D) Twelve months"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 3: Conversations)",
+    "question": "Why is Michel out of the office?",
+    "choices": [
+      "A) He and his family are headed overseas for a vacation.",
+      "B) He and his friends are heading to Las Vegas to celebrate.",
+      "C) He and his children are going to amusement parks all week.",
+      "D) He and his family are heading out of town for a wedding."
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 3: Conversations)",
+    "question": "Why does the independent contractor want to meet with Michel?",
+    "choices": [
+      "A) He wants to get paid.",
+      "B) He wants a Letter of Recommendation for a new job opportunity.",
+      "C) He wants a Letter of Recommendation for a PhD Program he’s applying for.",
+      "D) He wants a general recommendation letter for any job opportunities that may come up in the future."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 3: Conversations)",
+    "question": "How can people get a hold of Michel this week?",
+    "choices": [
+      "A) They can’t. He is not checking emails nor is he taking any calls.",
+      "B) He is only checking emails.",
+      "C) He is only taking calls.",
+      "D) He is only accepting letters by mail."
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 4: Short Talks)",
+    "question": "What was the main event in the department of the diary-writer this week?",
+    "choices": [
+      "A) switch to a one-call sales process (from a two-call sales process)",
+      "(B) switch to a two-call sales process (from a one-call sales process)",
+      "(C) switch to a two-call sales process (from a three-call sales process)",
+      "(D) switch to an in-person sales process from a phone sales process"
+    ],
+    "correctAnswer": 2,
+    "audio": "67-70_toeic1_daniela_vo_DONE.mp3",
+    "image": "img/67-100_toeic1.png"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 4: Short Talks)",
+    "question": "What is the probable job title of the diary-writer?",
+    "choices": [
+      "A) Sales Professional",
+      "B) Sales Manager",
+      "C) Chief Executive Officer",
+      "D) Custodian"
+    ],
+    "correctAnswer": 1,
+    "audio": "67-70_toeic1_daniela_vo_DONE.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 4: Short Talks)",
+    "question": "How long are most of the call ones with the new sales process?",
+    "choices": [
+      "A) under ten minutes",
+      "B) under fifteen minutes",
+      "C) under three minutes",
+      "D) under five minutes"
+    ],
+    "correctAnswer": 3,
+    "audio": "67-70_toeic1_daniela_vo_DONE.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 4: Short Talks)",
+    "question": "Based on the textual evidence, what does the word 'preliminary' mean?",
+    "choices": [
+      "A) early",
+      "B) late",
+      "C) mixed",
+      "D) global"
+    ],
+    "correctAnswer": 0,
+    "audio": "67-70_toeic1_daniela_vo_DONE.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 4: Short Talks)",
+    "question": "What medal did Thomas Sowell win in 2002?",
+    "choices": [
+      "A) the National Humanities Medal from President George W. Bush",
+      "B) the National Economics Medal from President George H.W. Bush",
+      "C) the Freedom Medal from President Bill Clinton",
+      "D) the Champions for Free Speech Medal from the Free Speech Advocates Group"
+    ],
+    "correctAnswer": 0,
+    "audio": "71-74_toeic1_daniela_vo.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 4: Short Talks)",
+    "question": "In what book does Thomas Sowell argue against the imposition of a minimum wage?",
+    "choices": [
+      "A) Economics for Dummies",
+      "B) Basic Economics",
+      "C) Fake Wages And Real Inflation",
+      "D) For Whom the Worker Toils"
+    ],
+    "correctAnswer": 1,
+    "audio": "71-74_toeic1_daniela_vo.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 4: Short Talks)",
+    "question": "How many books has Thomas Sowell written?",
+    "choices": [
+      "A) About 20",
+      "B) About 45",
+      "C) About 65",
+      "D) About 100"
+    ],
+    "correctAnswer": 1,
+    "audio": "71-74_toeic1_daniela_vo.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 4: Short Talks)",
+    "question": "What two parties does Thomas Sowell tend to fall between in terms of beliefs?",
+    "choices": [
+      "A) Democrat and Republican",
+      "B) Republican and Libertarian",
+      "C) Libertarian and Democrat",
+      "D) Democrat and Whig"
+    ],
+    "correctAnswer": 1,
+    "audio": "71-74_toeic1_daniela_vo.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 4: Short Talks)",
+    "question": "What does Wayne want to stop doing?",
+    "choices": [
+      "A) staying up all night playing video games",
+      "B) going to bed a different time each night and eating/drinking/using digital devices within an hour of bedtime",
+      "C) staying out all hours of the night",
+      "D) going to bed a different time each night and eating/drinking/using digital devices within three hours of bedtime"
+    ],
+    "correctAnswer": 1,
+    "audio": "75-78.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 4: Short Talks)",
+    "question": "What is Wayne's new strategy?",
+    "choices": [
+      "A) sleep at the same time each night, get up at the same time each morning, and no devices/eating/drinking within an hour of bedtime",
+      "B) sleep at the same time each night, get up at the same time each morning, and no devices/eating/drinking within three hours of bedtime",
+      "C) sleep at the same time each night, get up at the same time each morning, and no devices/eating/drinking within three hours of bedtime EXCEPT on weekends when all rules go out the window",
+      "D) sleep at the same time each night, get up at the same time each morning, and no devices/eating/drinking within an hour of bedtime EXCEPT on weekends when all rules go out the window"
+    ],
+    "correctAnswer": 0,
+    "audio": "75-78.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 4: Short Talks)",
+    "question": "What is an idea that Wayne has for not eating food so late at night (or so close to bedtime)?",
+    "choices": [
+      "A) locking up food where it’s hard to get to or where he can eat out more often, cheaply but healthily",
+      "B) order food delivery more often",
+      "C) stop eating so often",
+      "D) locking up food where it’s hard to get to or where he can skip meals altogether"
+    ],
+    "correctAnswer": 0,
+    "audio": "75-78.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 4: Short Talks)",
+    "question": "What has Wayne decided will be his new wakeup time each day?",
+    "choices": [
+      "A) 5:30AM",
+      "B) 6:30AM",
+      "C) 7:30AM",
+      "D) 8:30AM"
+    ],
+    "correctAnswer": 1,
+    "audio": "75-78.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 4: Short Talks)",
+    "question": "What is a synonym of the word 'Herculean'?",
+    "choices": [
+      "A) Impossible",
+      "B) Challenging",
+      "C) Easy",
+      "D) Simple"
+    ],
+    "correctAnswer": 1,
+    "audio": "79-82_toeic1_daniela_vo.mp3",
+    "image": "img/79-82.png"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 4: Short Talks)",
+    "question": "How many people are on the sales and marketing teams of this company?",
+    "choices": [
+      "A) 10",
+      "B) 15",
+      "C) 20",
+      "D) 35"
+    ],
+    "correctAnswer": 1,
+    "audio": "79-82_toeic1_daniela_vo.mp3",
+    "image": "img/79-82.png"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 4: Short Talks)",
+    "question": "What does 'burn the candle at both ends' mean?",
+    "choices": [
+      "A) Work overtime or stay later than normal",
+      "B) Keep the stove on while at work",
+      "C) Burn the meal cooking while at work",
+      "D) Take more breaks than normal day in and day out"
+    ],
+    "correctAnswer": 0,
+    "audio": "79-82_toeic1_daniela_vo.mp3",
+    "image": "img/79-82.png"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 4: Short Talks)",
+    "question": "What does 'cull the herd' mean in the context of this speech?",
+    "choices": [
+      "A) It means buying more inventory.",
+      "B) It means buying less inventory from now on.",
+      "C) It means trying to sell the excess inventory as soon as possible.",
+      "D) It means trying to sell more cows from an actual herd of cows."
+    ],
+    "correctAnswer": 2,
+    "audio": "79-82_toeic1_daniela_vo.mp3",
+    "image": "img/79-82.png"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 4: Short Talks)",
+    "question": "What mathematical discipline did Newton (arguably) invent?",
+    "choices": [
+      "A) Algebra",
+      "B) Geometry",
+      "C) Calculus",
+      "D) Physics"
+    ],
+    "correctAnswer": 2,
+    "audio": "83-86.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 4: Short Talks)",
+    "question": "Where was Newton born?",
+    "choices": [
+      "A) Stratford-Upon-Avon, England",
+      "B) Tel Aviv, Israel",
+      "C) Berlin, Germany",
+      "D) Woolsthorpe, England"
+    ],
+    "correctAnswer": 3,
+    "audio": "83-86.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 4: Short Talks)",
+    "question": "Based on the context clues, what does 'polymath' mean?",
+    "choices": [
+      "A) friend",
+      "B) someone good at one specific discipline",
+      "C) someone good at many different disciplines",
+      "D) someone who likes living in many different places"
+    ],
+    "correctAnswer": 2,
+    "audio": "83-86.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 4: Short Talks)",
+    "question": "Based on the context clues, what does 'progenitor' mean?",
+    "choices": [
+      "A) inventor",
+      "B) performer",
+      "C) follower",
+      "D) detractor"
+    ],
+    "correctAnswer": 0,
+    "audio": "83-86.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 4: Short Talks)",
+    "question": "What is the weather channel called?",
+    "choices": [
+      "A) Eastern Europe Daily Weather",
+      "B) All-Day Balkan Weather",
+      "C) Balkan Weather 24/7",
+      "D) Europe Weather 24/7"
+    ],
+    "correctAnswer": 2,
+    "audio": "87-91_toeic1_daniela_vo_DONE.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 4: Short Talks)",
+    "question": "What is the name of the city in Kosovo where there is currently a lot of rainfall according to the newscast?",
+    "choices": [
+      "A) Peja",
+      "B) Pristina",
+      "C) Prizren",
+      "D) Gjakova"
+    ],
+    "correctAnswer": 0,
+    "audio": "87-91_toeic1_daniela_vo_DONE.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 4: Short Talks)",
+    "question": "What is the name of the weather broadcaster?",
+    "choices": [
+      "A) Mandj",
+      "B) Elena",
+      "C) Orgesa",
+      "D) Adi"
+    ],
+    "correctAnswer": 2,
+    "audio": "87-91_toeic1_daniela_vo_DONE.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 4: Short Talks)",
+    "question": "Based on the context clues, what does 'abated' mean?",
+    "choices": [
+      "A) increased",
+      "B) decreased or lessened",
+      "C) stayed the same",
+      "D) changed form"
+    ],
+    "correctAnswer": 1,
+    "audio": "87-91_toeic1_daniela_vo_DONE.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 4: Short Talks)",
+    "question": "Why might an air traveler experience delays who is going to Tirana soon?",
+    "choices": [
+      "A) There is a bad storm in the area where the Tirana Airport is located.",
+      "(B) There is a Management strike at the Tirana Airport.",
+      "(C) There is a worker strike at the Tirana Airport.",
+      "(D) There is a lot of construction occurring at the Tirana Airport."
+    ],
+    "correctAnswer": 2,
+    "audio": "87-91_toeic1_daniela_vo_DONE.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 4: Short Talks)",
+    "question": "What is the name of the county where the speaker is addressing his concerns?",
+    "choices": [
+      "A) Davison County",
+      "B) David County",
+      "C) Division County",
+      "D) Dartmouth County"
+    ],
+    "correctAnswer": 0,
+    "audio": "92-96.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 4: Short Talks)",
+    "question": "What are his main concerns?",
+    "choices": [
+      "A) his city may vote on defunding the arts and the local public libraries",
+      "B) his county may vote on defunding the arts and the local public libraries",
+      "C) his state may vote on defunding the arts and the local public libraries",
+      "D) the country may vote on defunding the arts and the local public libraries"
+    ],
+    "correctAnswer": 1,
+    "audio": "92-96.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 4: Short Talks)",
+    "question": "What is a job that the speaker neglected to mention in his list of occupations that are societally-paramount and practical?",
+    "choices": [
+      "A) farmer",
+      "B) teacher",
+      "C) doctor",
+      "D) engineer"
+    ],
+    "correctAnswer": 0,
+    "audio": "92-96.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 4: Short Talks)",
+    "question": "How old is the speaker?",
+    "choices": [
+      "A) 40",
+      "B) 45",
+      "C) 47",
+      "D) 50"
+    ],
+    "correctAnswer": 2,
+    "audio": "92-96.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 4: Short Talks)",
+    "question": "Based on context clues, what does the word 'egalitarian' mean?",
+    "choices": [
+      "A) fair",
+      "B) unfair",
+      "C) tasty",
+      "D) competitive"
+    ],
+    "correctAnswer": 0,
+    "audio": "92-96.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 4: Short Talks)",
+    "question": "What is the company called?",
+    "choices": [
+      "A) Super Leather Goods",
+      "B) Superb Leather Goods",
+      "C) Stewart Leather Goods",
+      "D) LA Leather Goods"
+    ],
+    "correctAnswer": 1,
+    "audio": "97-100_toeic1_daniela_vo_DONE.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 4: Short Talks)",
+    "question": "What language is not mentioned in the recording?",
+    "choices": [
+      "A) Portuguese",
+      "B) Brazilian",
+      "C) Spanish",
+      "D) English"
+    ],
+    "correctAnswer": 1,
+    "audio": "97-100_toeic1_daniela_vo_DONE.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 4: Short Talks)",
+    "question": "How many countries does the company ship to?",
+    "choices": [
+      "A) 20",
+      "B) 22",
+      "C) 32",
+      "D) 50"
+    ],
+    "correctAnswer": 1,
+    "audio": "97-100_toeic1_daniela_vo_DONE.mp3"
+  },
+  {
+    "qType": "Section 1: Listening Test (Part 4: Short Talks)",
+    "question": "What leather good is NOT mentioned as being created and sold at the company?",
+    "choices": [
+      "A) satchel",
+      "B) wallet",
+      "C) bag",
+      "D) baseball cap"
+    ],
+    "correctAnswer": 3,
+    "audio": "97-100_toeic1_daniela_vo_DONE.mp3"
+  },
+  {
+    "qType": "Section 2: Reading (Part 5: Incomplete Sentences)",
+    "question": "Oil rises to this year's ____ on mounting signs of tighter supplies.",
+    "choices": [
+      "A) high",
+      "B) low",
+      "C) price",
+      "D) below average"
+    ],
+    "correctAnswer": 0,
+    "image": "img/101-140.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 5: Incomplete Sentences)",
+    "question": "______ legs are crossed so that it's more challenging to uncross them.",
+    "choices": [
+      "A) Its",
+      "B) It's",
+      "C) I'm",
+      "D) They're"
+    ],
+    "correctAnswer": 0,
+    "image": "img/101-140.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 5: Incomplete Sentences)",
+    "question": "We tried helping our co-workers with _____ weekly status reports.",
+    "choices": [
+      "A) they're",
+      "B) their",
+      "C) there",
+      "D) then"
+    ],
+    "correctAnswer": 1,
+    "image": "img/101-140.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 5: Incomplete Sentences)",
+    "question": "The chief, or ________, reason that my boss promoted me is because I always show up early and stay late.",
+    "choices": [
+      "A) principled",
+      "B) principle",
+      "C) principal",
+      "D) principal's"
+    ],
+    "correctAnswer": 2,
+    "image": "img/101-140.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 5: Incomplete Sentences)",
+    "question": "Studying by using tactile tools such as index cards has generally been known to ______ grades as opposed to lower them.",
+    "choices": [
+      "A) detract",
+      "B) lessen",
+      "C) enhance",
+      "D) further"
+    ],
+    "correctAnswer": 2,
+    "image": "img/101-140.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 5: Incomplete Sentences)",
+    "question": "His next ______ was an experienced leader having lead a company back from the brink of bankruptcy inside of 36 months to become profitable again.",
+    "choices": [
+      "A) appointed",
+      "B) appointee",
+      "C) appointments",
+      "D) pointer"
+    ],
+    "correctAnswer": 1,
+    "image": "img/101-140.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 5: Incomplete Sentences)",
+    "question": "I always love taking a late lunch because I'm rarely hungry before 2pm. ______, it is a bummer not to be able to share my mid-day downtime with my fellow co-workers since they follow a more conventional daily schedule.",
+    "choices": [
+      "A) Hence",
+      "B) Although",
+      "C) However",
+      "D) Despite"
+    ],
+    "correctAnswer": 2,
+    "image": "img/101-140.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 5: Incomplete Sentences)",
+    "question": "______ my grandmother always told me to rest early and get up early, my grandfather told me that not everyone needs to follow that recipe and that he oftentimes would go to sleep after 10PM each night without any health problems popping up.",
+    "choices": [
+      "A) While",
+      "B) Moreover",
+      "C) Still",
+      "D) Then"
+    ],
+    "correctAnswer": 0,
+    "image": "img/101-140.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 5: Incomplete Sentences)",
+    "question": "The sales professional reminded his spouse that the sale is made in the ________ and that he could not expect to close a lot of deals regularly on a first call or first appointment.",
+    "choices": [
+      "A) following",
+      "B) follower",
+      "C) follow-up",
+      "D) followed"
+    ],
+    "correctAnswer": 2,
+    "image": "img/101-140.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 5: Incomplete Sentences)",
+    "question": "Try not to ______ him until he's had his morning coffee which tends to happen after 9:30AM.",
+    "choices": [
+      "A) contacting",
+      "B) contacted",
+      "C) contacts",
+      "D) contact"
+    ],
+    "correctAnswer": 3,
+    "image": "img/101-140.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 5: Incomplete Sentences)",
+    "question": "Her assistant tried moving the couch to the lounge area, ___ it was much too heavy for one person to move.",
+    "choices": [
+      "A) although",
+      "B) but",
+      "C) despite",
+      "D) in fact"
+    ],
+    "correctAnswer": 1,
+    "image": "img/101-140.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 5: Incomplete Sentences)",
+    "question": "A good leader knows how to ______ to his lieutenants, or his other team members who help him execute the company vision.",
+    "choices": [
+      "A) delegates",
+      "B) delegate",
+      "C) delegated",
+      "D) decorate"
+    ],
+    "correctAnswer": 1,
+    "image": "img/101-140.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 5: Incomplete Sentences)",
+    "question": "Instead of growing their core business organically, the company's top leaders elected to grow by ___________, meaning that they wanted to buy up as many competitors as they could afford.",
+    "choices": [
+      "A) acquisitiveness",
+      "B) acquisition",
+      "C) acquihire",
+      "D) acquire"
+    ],
+    "correctAnswer": 1,
+    "image": "img/101-140.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 5: Incomplete Sentences)",
+    "question": "The investor wanted to learn more about their ______ as they'd been growing 50% Month-Over-Month since they launched.",
+    "choices": [
+      "A) venture",
+      "B) advantageous",
+      "C) extremely",
+      "D) popular"
+    ],
+    "correctAnswer": 0,
+    "image": "img/101-140.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 5: Incomplete Sentences)",
+    "question": "The Sales Manager made a concerted _______ to improve morale when quarterly sales numbers began to decline rapidly and team member layoffs ensued.",
+    "choices": [
+      "A) venue",
+      "B) effortless",
+      "C) effort",
+      "D) related"
+    ],
+    "correctAnswer": 2,
+    "image": "img/101-140.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 5: Incomplete Sentences)",
+    "question": "The customers know that the ______ is BPA-free since it's written on the bottle and is also included in the first two emails sent from the company to each new customer.",
+    "choices": [
+      "A) production",
+      "B) produced",
+      "C) product",
+      "D) produce"
+    ],
+    "correctAnswer": 2,
+    "image": "img/101-140.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 5: Incomplete Sentences)",
+    "question": "The board of directors voted to ______ their CEO since there was lots of evidence that he was actively trying to sabotage the company.",
+    "choices": [
+      "A) ouster",
+      "B) out",
+      "C) oust",
+      "D) outed"
+    ],
+    "correctAnswer": 2,
+    "image": "img/101-140.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 5: Incomplete Sentences)",
+    "question": "______ the fact that the company was launched twelve years ago, they only recently passed the $1 million per year revenue mark.",
+    "choices": [
+      "A) However",
+      "B) Still",
+      "C) Moreover",
+      "D) Despite"
+    ],
+    "correctAnswer": 3,
+    "image": "img/101-140.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 5: Incomplete Sentences)",
+    "question": "The entire team went out and enjoyed a delicious and healthy lunch together. ________, we made a pact to work extra-hard during the upcoming holiday season even if it meant some overtime and early mornings.",
+    "choices": [
+      "A) However",
+      "B) Moreover",
+      "C) Moreso",
+      "D) Still"
+    ],
+    "correctAnswer": 1,
+    "image": "img/101-140.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 5: Incomplete Sentences)",
+    "question": "The international volunteer program has been a success since its _________ last winter. In fact, we've hired 20% of our former volunteers as paid contractors or employees since they've been so talented, reliable, and effective.",
+    "choices": [
+      "A) closure",
+      "B) closing",
+      "C) inception",
+      "D) median"
+    ],
+    "correctAnswer": 2,
+    "image": "img/101-140.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 5: Incomplete Sentences)",
+    "question": "While the CMO believed that Stewart ought to be ________, the CEO instead believed that Stewart should be terminated altogether since he knew that the mercurial employee would basically quit anyways or make his co-workers' lives miserable once the role change had been made.",
+    "choices": [
+      "A) promoted",
+      "B) promotion",
+      "C) demoted",
+      "D) demotion"
+    ],
+    "correctAnswer": 2,
+    "image": "img/101-140.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 5: Incomplete Sentences)",
+    "question": "The student was ________ with a plaque for making the Principal's Honor Roll for her sixth straight semester.",
+    "choices": [
+      "A) honoree",
+      "B) honor",
+      "C) honorable",
+      "D) honored"
+    ],
+    "correctAnswer": 3,
+    "image": "img/101-140.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 5: Incomplete Sentences)",
+    "question": "_______ she rarely came in early, she hadn't arrived late for work in over ten years, earning her two promotions and three raises in that timeframe.",
+    "choices": [
+      "A) Although",
+      "B) Hence",
+      "C) Nevertheless",
+      "D) Still"
+    ],
+    "correctAnswer": 0,
+    "image": "img/101-140.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 5: Incomplete Sentences)",
+    "question": "Lola, Tang, and Siming __________ on all the designs for the new website and many of its attendant web assets.",
+    "choices": [
+      "A) collaboration",
+      "B) collaborated",
+      "C) collated",
+      "D) connecting"
+    ],
+    "correctAnswer": 1,
+    "image": "img/101-140.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 5: Incomplete Sentences)",
+    "question": "His business ________ has improved since he graduated last September, especially since he read over a dozen business books and ultimately implemented many of their teachings.",
+    "choices": [
+      "A) failures",
+      "B) failings",
+      "C) acumen",
+      "D) smarts"
+    ],
+    "correctAnswer": 2,
+    "image": "img/101-140.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 5: Incomplete Sentences)",
+    "question": "Why _______ your new hire join us for lunch today so we can make him feel welcome on our thriving team?",
+    "choices": [
+      "A) don't",
+      "B) doesn't",
+      "C) does",
+      "D) didn't"
+    ],
+    "correctAnswer": 1,
+    "image": "img/101-140.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 5: Incomplete Sentences)",
+    "question": "The __________ room has a large oval desk and umpteen leather chairs that you can swivel back and forth for fun during meetings.",
+    "choices": [
+      "A) dining",
+      "B) office",
+      "C) janitor",
+      "D) conference"
+    ],
+    "correctAnswer": 3,
+    "image": "img/101-140.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 5: Incomplete Sentences)",
+    "question": "________ you want to yell back at your Manager, take two deep breaths and calm down as it's rarely a good idea to raise your voice at work.",
+    "choices": [
+      "A) However",
+      "B) Whenever",
+      "C) Meanwhile",
+      "D) Therefore"
+    ],
+    "correctAnswer": 1,
+    "image": "img/101-140.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 5: Incomplete Sentences)",
+    "question": "The most important _____ that one can develop at work (or in life in general) is the ability to listen.",
+    "choices": [
+      "A) trait",
+      "B) hereditary",
+      "C) systems",
+      "D) offspring"
+    ],
+    "correctAnswer": 0,
+    "image": "img/101-140.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 5: Incomplete Sentences)",
+    "question": "Developing one's critical thinking skills is ______ if one wants to get ahead in his/her career.",
+    "choices": [
+      "A) paramount",
+      "B) paramour",
+      "C) pilloried",
+      "D) planned"
+    ],
+    "correctAnswer": 0,
+    "image": "img/101-140.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 5: Incomplete Sentences)",
+    "question": "Ben decided that his salary was ________ because it covered all of his monthly bills plus it allowed him to put away a few hundred bucks each month.",
+    "choices": [
+      "A) suffice",
+      "B) suffix",
+      "C) sufficient",
+      "D) suffrage"
+    ],
+    "correctAnswer": 2,
+    "image": "img/101-140.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 5: Incomplete Sentences)",
+    "question": "The airport workers elected to go on _______ because they believed that their safety concerns were being ignored.",
+    "choices": [
+      "A) striked",
+      "B) strike",
+      "C) striker",
+      "D) overtime"
+    ],
+    "correctAnswer": 1,
+    "image": "img/101-140.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 5: Incomplete Sentences)",
+    "question": "Most companies still prefer that each candidate submit a resume so that they can properly determine whether or not an interview would be _________.",
+    "choices": [
+      "A) exceptionally",
+      "B) warranted",
+      "C) except",
+      "D) excerpt"
+    ],
+    "correctAnswer": 1,
+    "image": "img/101-140.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 5: Incomplete Sentences)",
+    "question": "She _____ for the position even though she knew that the hiring manager preferred another candidate for the role.",
+    "choices": [
+      "A) vice",
+      "B) vied",
+      "C) versed",
+      "D) vexed"
+    ],
+    "correctAnswer": 1,
+    "image": "img/101-140.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 5: Incomplete Sentences)",
+    "question": "Every candidate who applies for this job must take a pre-assessment so that we can _______ the number of candidates down substantially.",
+    "choices": [
+      "A) minnow",
+      "B) winnow",
+      "C) minnows",
+      "D) winnows"
+    ],
+    "correctAnswer": 1,
+    "image": "img/101-140.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 5: Incomplete Sentences)",
+    "question": "Our CTO has done an __________ job leading the technical team this year, even winning an award from the county for his efforts.",
+    "choices": [
+      "A) exemplary",
+      "B) orator",
+      "C) obscure",
+      "D) unfortunate"
+    ],
+    "correctAnswer": 0,
+    "image": "img/101-140.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 5: Incomplete Sentences)",
+    "question": " Our main competitor has ________ to remain active in the sales and marketing fronts, giving us an opportunity to surge past them in overall revenues this year for a change.",
+    "choices": [
+      "A) continued",
+      "B) surged",
+      "C) improved",
+      "D) neglected"
+    ],
+    "correctAnswer": 3,
+    "image": "img/101-140.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 5: Incomplete Sentences)",
+    "question": "Our product is _________ to theirs; moreover, ours is cheaper and better for the environment.",
+    "choices": [
+      "A) inferior",
+      "B) superior",
+      "C) compared",
+      "D) comparison"
+    ],
+    "correctAnswer": 1,
+    "image": "img/101-140.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 5: Incomplete Sentences)",
+    "question": "Most economists don't agree on much; ________, they all agree that one should try to make more money than one spends on a regular basis.",
+    "choices": [
+      "A) moreover",
+      "B) however",
+      "C) despite",
+      "D) therefore"
+    ],
+    "correctAnswer": 1,
+    "image": "img/101-140.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 5: Incomplete Sentences)",
+    "question": "Addison surged in the ______ as her opponent's unfortunate flub at his rally caused him to fall behind in the campaign by double-digits.",
+    "choices": [
+      "A) pole",
+      "B) polls",
+      "C) pollster",
+      "D) pollsters"
+    ],
+    "correctAnswer": 1,
+    "image": "img/101-140.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 6: Error Recognition or Text Completion)",
+    "question": "Please read the email and choose the best answer.",
+    "choices": [
+      "A) lackluster",
+      "B) mainstay",
+      "C) superlative",
+      "D) inappropriate"
+    ],
+    "correctAnswer": 2,
+    "image": "img/141-144.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 6: Error Recognition or Text Completion)",
+    "question": "Please read the email and choose the best answer.",
+    "choices": [
+      "A) copious",
+      "B) copied",
+      "C) creativity",
+      "D) corporation"
+    ],
+    "correctAnswer": 0,
+    "image": "img/141-144.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 6: Error Recognition or Text Completion)",
+    "question": "Please read the email and choose the best answer.",
+    "choices": [
+      "A) trainings",
+      "B) reference",
+      "C) reticence",
+      "D) resonance"
+    ],
+    "correctAnswer": 1,
+    "image": "img/141-144.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 6: Error Recognition or Text Completion)",
+    "question": "Please read the email and choose the best answer.",
+    "choices": [
+      "A) boring",
+      "B) intermittent",
+      "C) annual",
+      "D) bereft"
+    ],
+    "correctAnswer": 2,
+    "image": "img/141-144.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 6: Error Recognition or Text Completion)",
+    "question": "Please read the ad and choose the best answer.",
+    "choices": [
+      "A) liquidated",
+      "B) liquidate",
+      "C) liquidator",
+      "D) liquidation"
+    ],
+    "correctAnswer": 3,
+    "image": "img/145-149.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 6: Error Recognition or Text Completion)",
+    "question": "Please read the ad and choose the best answer.",
+    "choices": [
+      "A) commune",
+      "B) communal",
+      "C) community",
+      "D) communed"
+    ],
+    "correctAnswer": 2,
+    "image": "img/145-149.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 6: Error Recognition or Text Completion)",
+    "question": "Please read the ad and choose the best answer.",
+    "choices": [
+      "A) manufacturer's",
+      "B) manufacturing",
+      "C) manufacture",
+      "D) manufacturers'"
+    ],
+    "correctAnswer": 0,
+    "image": "img/145-149.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 6: Error Recognition or Text Completion)",
+    "question": "Please read the ad and choose the best answer.",
+    "choices": [
+      "A) Your",
+      "B) You're",
+      "C) You've",
+      "D) Our"
+    ],
+    "correctAnswer": 1,
+    "image": "img/145-149.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 6: Error Recognition or Text Completion)",
+    "question": "Please read the ad and choose the best answer.",
+    "choices": [
+      "A) happy",
+      "B) in",
+      "C) on",
+      "D) forward"
+    ],
+    "correctAnswer": 3,
+    "image": "img/145-149.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 6: Error Recognition or Text Completion)",
+    "question": "Please read the article and choose the best answer.",
+    "choices": [
+      "A) joint",
+      "B) unique",
+      "C) collaborative",
+      "D) collaboration"
+    ],
+    "correctAnswer": 1,
+    "image": "img/150-153.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 6: Error Recognition or Text Completion)",
+    "question": "Please read the article and choose the best answer.",
+    "choices": [
+      "A) conveyance",
+      "B) illustration",
+      "C) simple",
+      "D) opaque"
+    ],
+    "correctAnswer": 1,
+    "image": "img/150-153.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 6: Error Recognition or Text Completion)",
+    "question": "Please read the article and choose the best answer.",
+    "choices": [
+      "A) basic",
+      "B) basis",
+      "C) base",
+      "D) basal"
+    ],
+    "correctAnswer": 1,
+    "image": "img/150-153.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 6: Error Recognition or Text Completion)",
+    "question": "Please read the article and choose the best answer.",
+    "choices": [
+      "A) fail",
+      "B) collapse",
+      "C) failure",
+      "D) thrive"
+    ],
+    "correctAnswer": 3,
+    "image": "img/150-153.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 6: Error Recognition or Text Completion)",
+    "question": "Please read the memo and choose the best answer.",
+    "choices": [
+      "A) broiled",
+      "B) boiled",
+      "C) embroiled",
+      "D) roiled"
+    ],
+    "correctAnswer": 2,
+    "image": "img/154-158.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 6: Error Recognition or Text Completion)",
+    "question": "Please read the memo and choose the best answer.",
+    "choices": [
+      "A) tertiary",
+      "B) central",
+      "C) subordinate",
+      "D) subordinated"
+    ],
+    "correctAnswer": 1,
+    "image": "img/154-158.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 6: Error Recognition or Text Completion)",
+    "question": "Please read the memo and choose the best answer.",
+    "choices": [
+      "A) heretofore",
+      "B) therefore",
+      "C) indeed",
+      "D) nevertheless"
+    ],
+    "correctAnswer": 3,
+    "image": "img/154-158.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 6: Error Recognition or Text Completion)",
+    "question": "Please read the memo and choose the best answer.",
+    "choices": [
+      "A) regretfully",
+      "B) regretful",
+      "C) happily",
+      "D) quarterly"
+    ],
+    "correctAnswer": 0,
+    "image": "img/154-158.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 6: Error Recognition or Text Completion)",
+    "question": "Please read the memo and choose the best answer.",
+    "choices": [
+      "A) serve",
+      "B) server",
+      "C) serving",
+      "D) service"
+    ],
+    "correctAnswer": 3,
+    "image": "img/154-158.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 7: Reading Comprehension)",
+    "question": "What is enclosed in the letter?",
+    "choices": [
+      "A) photos of the damage",
+      "B) free tickets to a concert",
+      "C) estimates from four local service providers regarding the garage damage",
+      "D) estimates from five local service providers regarding the garage damage"
+    ],
+    "correctAnswer": 3,
+    "image": "img/159-163.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 7: Reading Comprehension)",
+    "question": "What is the letter about?",
+    "choices": [
+      "A) celebration letter about the arrival of a family newborn",
+      "B) letter requesting that an insurance company raise the offered amount for a claim on garage damage from a hurricane",
+      "C) letter requesting that an insurance company raise the offered amount for a claim on garage damage from a tornado",
+      "D) friendly inquiry regarding a specific dollar amount for an insurance claim on a earthquake damage"
+    ],
+    "correctAnswer": 1,
+    "image": "img/159-163.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 7: Reading Comprehension)",
+    "question": "What are the ranges of the work estimates from the various firms mentioned in the letter?",
+    "choices": [
+      "A) $3000-$4000",
+      "B) $3000-$4800",
+      "C) $2000-$4000",
+      "D) $2000-$5800"
+    ],
+    "correctAnswer": 1,
+    "image": "img/159-163.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 7: Reading Comprehension)",
+    "question": "What is the tone of the letter?",
+    "choices": [
+      "A) accusatory",
+      "B) aggressive",
+      "C) cordial",
+      "D) contrite"
+    ],
+    "correctAnswer": 2,
+    "image": "img/159-163.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 7: Reading Comprehension)",
+    "question": "What is the request of Eva, the writer of the letter?",
+    "choices": [
+      "A) that she be able to cancel her insurance with the firm she sent the letter to",
+      "B) that she be able to get a lower monthly premium with the firm she sent the letter to",
+      "C) that she be able to get a higher payout for the insurance claim she filed from the garage damage from the tornado",
+      "D) that she be able to get a higher payout for the insurance claim she filed from the garage damage from the earthquake"
+    ],
+    "correctAnswer": 2,
+    "image": "img/159-163.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 7: Reading Comprehension)",
+    "question": "What is Frank's role at the company?",
+    "choices": [
+      "A) Business Development",
+      "B) Regional Sales Manager",
+      "C) District Sales Manager"
+    ],
+    "correctAnswer": 2,
+    "image": "img/164-169.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 7: Reading Comprehension)",
+    "question": "Whose strategy was she discussing in the email?",
+    "choices": [
+      "A) CTO's",
+      "B) hers",
+      "C) CEO's"
+    ],
+    "correctAnswer": 2,
+    "image": "img/164-169.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 7: Reading Comprehension)",
+    "question": "What efforts will be halted based on this email?",
+    "choices": [
+      "A) salespeople will not be doing outbound cold and warm calls",
+      "B) salespeople will not be doing outbound warm and cold emails",
+      "C) salespeople will not be doing in-person cold calls"
+    ],
+    "correctAnswer": 2,
+    "image": "img/164-169.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 7: Reading Comprehension)",
+    "question": "What is a mentioned reason why a specific type of sales efforts need to be halted?",
+    "choices": [
+      "A) the high-priced products they're marketing haven't been selling",
+      "B) the low-priced products they're marketing haven't been selling",
+      "C) the salespeople have struggled to make sales altogether"
+    ],
+    "correctAnswer": 1,
+    "image": "img/164-169.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 7: Reading Comprehension)",
+    "question": "What are sales methods not mentioned in the email?",
+    "choices": [
+      "A) in-person cold calling",
+      "B) phone cold calling",
+      "C) group webinars"
+    ],
+    "correctAnswer": 2,
+    "image": "img/164-169.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 7: Reading Comprehension)",
+    "question": "What is Rachel's role at the company?",
+    "choices": [
+      "A) District Sales Manager",
+      "B) Regional Sales Manager - Western US",
+      "C) Regional Sales Manager - Eastern US"
+    ],
+    "correctAnswer": 1,
+    "image": "img/164-169.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 7: Reading Comprehension)",
+    "question": "What is the population of Antarctica?",
+    "choices": [
+      "A) 0",
+      "B) 100",
+      "C) 3000"
+    ],
+    "correctAnswer": 2,
+    "image": "img/170-174.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 7: Reading Comprehension)",
+    "question": "What percentage of the world's population lives in the Caribbean?",
+    "choices": [
+      "A) 0.1%",
+      "B) 0.6%",
+      "C) 6%"
+    ],
+    "correctAnswer": 1,
+    "image": "img/170-174.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 7: Reading Comprehension)",
+    "question": "According to the table, what is the world's population closest to (in billions)?",
+    "choices": [
+      "A) 7 billion",
+      "B) 8 billion",
+      "C) 9 billion"
+    ],
+    "correctAnswer": 1,
+    "image": "img/170-174.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 7: Reading Comprehension)",
+    "question": "According to the table, what percentage of the world's population is in Africa?",
+    "choices": [
+      "A) 10.6%",
+      "B) 15.6%",
+      "C) 17.6%"
+    ],
+    "correctAnswer": 2,
+    "image": "img/170-174.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 7: Reading Comprehension)",
+    "question": "What UN Sub-Region has the greatest percentage of people in the world?",
+    "choices": [
+      "A) Eastern Asia",
+      "B) Western Asia",
+      "C) Southern Asia"
+    ],
+    "correctAnswer": 2,
+    "image": "img/170-174.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 7: Reading Comprehension)",
+    "question": "What do the rankings mean (#1, #2, #3)?",
+    "choices": [
+      "A) highest revenue companies in South America",
+      "B) highest revenue companies in the USA",
+      "C) most valuable companies in the world by market cap"
+    ],
+    "correctAnswer": 2,
+    "image": "img/175-179.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 7: Reading Comprehension)",
+    "question": "What company of the three is not listed on the Nasdaq?",
+    "choices": [
+      "A) Apple",
+      "B) Saudi Aramco",
+      "C) Microsoft Corp."
+    ],
+    "correctAnswer": 1,
+    "image": "img/175-179.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 7: Reading Comprehension)",
+    "question": "What is the other name for Saudi Aramco?",
+    "choices": [
+      "A) Saudi Arabian Oil",
+      "B) Aramark",
+      "C) House of Saud"
+    ],
+    "correctAnswer": 0,
+    "image": "img/175-179.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 7: Reading Comprehension)",
+    "question": "What is Microsoft most known for producing?",
+    "choices": [
+      "A) Windows OS and Office Suite Software",
+      "B) XBox and iPhone",
+      "C) laptops and desktops"
+    ],
+    "correctAnswer": 0,
+    "image": "img/175-179.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 7: Reading Comprehension)",
+    "question": "What company earned over $100 billion in net annual income?",
+    "choices": [
+      "A) Apple",
+      "B) Saudi Aramco",
+      "C) Microsoft Corp."
+    ],
+    "correctAnswer": 0,
+    "image": "img/175-179.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 7: Reading Comprehension)",
+    "question": "What is the memo for?",
+    "choices": [
+      "A) tips on doing a better school project",
+      "B) tips on being thorough and conscientious in school",
+      "C) tips of being thorough and conscientious on the job"
+    ],
+    "correctAnswer": 2,
+    "image": "img/180-185.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 7: Reading Comprehension)",
+    "question": "Who is the memo written for?",
+    "choices": [
+      "A) long-time team members of the company",
+      "B) new team members of a company",
+      "C) company management"
+    ],
+    "correctAnswer": 1,
+    "image": "img/180-185.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 7: Reading Comprehension)",
+    "question": "What is the word 'proofreading' being used as in the memo?",
+    "choices": [
+      "A) hyperbole",
+      "B) simile",
+      "C) metaphor or figure of speech"
+    ],
+    "correctAnswer": 2,
+    "image": "img/180-185.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 7: Reading Comprehension)",
+    "question": "What does the writer of the memo not mention?",
+    "choices": [
+      "A) names of fellow team members who are doing a good job 'proofreading' at the company",
+      "B) examples of ways to 'proofread' at the company",
+      "potential software that may help one 'proofread' at work"
+    ],
+    "correctAnswer": 0,
+    "image": "img/180-185.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 7: Reading Comprehension)",
+    "question": "Who is the writer of the memo?",
+    "choices": [
+      "A) Chief Technology Officer",
+      "B) Head of Marketing",
+      "C) Founder"
+    ],
+    "correctAnswer": 2,
+    "image": "img/180-185.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 7: Reading Comprehension)",
+    "question": "What is a managerial style that the writer of the memo claims not to engage in?",
+    "choices": [
+      "A) listening intently to his team members",
+      "B) micro-managing",
+      "C) help his team members to become better workers in general"
+    ],
+    "correctAnswer": 1,
+    "image": "img/180-185.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 7: Reading Comprehension)",
+    "question": "What did Buddha teach about?",
+    "choices": [
+      "A) intolerance and negativity",
+      "B) passion and pursuit of ambitions",
+      "C) compassion and inner peace"
+    ],
+    "correctAnswer": 2,
+    "image": "img/186-190.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 7: Reading Comprehension)",
+    "question": "What did the top 3 influential people in history have in common?",
+    "choices": [
+      "A) They were contemporaries.",
+      "B) They were religious teachers and/or figures.",
+      "C) They lived long lives (>75 years old)."
+    ],
+    "correctAnswer": 1,
+    "image": "img/186-190.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 7: Reading Comprehension)",
+    "question": "What was Alexander the Great known for?",
+    "choices": [
+      "A) He was one of the greatest philosophers in history.",
+      "B) He was one of the greatest artists in history.",
+      "C) He was one of the greatest military generals in history."
+    ],
+    "correctAnswer": 2,
+    "image": "img/186-190.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 7: Reading Comprehension)",
+    "question": "What is Julius Caesar's political philosophy called?",
+    "choices": [
+      "A) Caesar's Palace",
+      "B) Caesarean Section",
+      "C) Caesarism"
+    ],
+    "correctAnswer": 2,
+    "image": "img/186-190.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 7: Reading Comprehension)",
+    "question": "Who was Alexander the Great's teacher?",
+    "choices": [
+      "A) Plato",
+      "B) Cicero",
+      "C) Aristotle"
+    ],
+    "correctAnswer": 2,
+    "image": "img/186-190.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 7: Reading Comprehension)",
+    "question": "What does 'severally' in Nigerian English mean?",
+    "choices": [
+      "A) on one occasion; singly",
+      "B) on few occasions",
+      "C) on several occasions; repeatedly"
+    ],
+    "correctAnswer": 2,
+    "image": "img/191-195.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 7: Reading Comprehension)",
+    "question": "Nigeria is a country in __________.",
+    "choices": [
+      "A) South Africa",
+      "B) North Africa",
+      "C) West Africa"
+    ],
+    "correctAnswer": 2,
+    "image": "img/191-195.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 7: Reading Comprehension)",
+    "question": "About how many languages are spoken in Nigeria?",
+    "choices": [
+      "A) 100",
+      "B) 500",
+      "C) 10,000"
+    ],
+    "correctAnswer": 1,
+    "image": "img/191-195.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 7: Reading Comprehension)",
+    "question": "In what era was English introduced to Nigeria?",
+    "choices": [
+      "A) pre-historic",
+      "B) contemporary",
+      "C) pre-colonial"
+    ],
+    "correctAnswer": 2,
+    "image": "img/191-195.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 7: Reading Comprehension)",
+    "question": "What is not one of the three major tribes in Nigeria?",
+    "choices": [
+      "A) Igbo",
+      "B) Hausa",
+      "C) Bengali"
+    ],
+    "correctAnswer": 2,
+    "image": "img/191-195.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 7: Reading Comprehension)",
+    "question": "What is the title of the person who wrote the letter?",
+    "choices": [
+      "A) CEO",
+      "B) Institutional Outreach",
+      "C) Business Development Professional"
+    ],
+    "correctAnswer": 1,
+    "image": "img/196-200.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 7: Reading Comprehension)",
+    "question": "What is the letter offering?",
+    "choices": [
+      "A) low-cost Math and Coding tutoring",
+      "B) low-cost Science and History tutoring",
+      "C) free Math and Coding tutoring"
+    ],
+    "correctAnswer": 2,
+    "image": "img/196-200.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 7: Reading Comprehension)",
+    "question": "Who is the offer for?",
+    "choices": [
+      "A) students of a specific school",
+      "B) staff of a specific school",
+      "C) students and/or staff of a specific school"
+    ],
+    "correctAnswer": 2,
+    "image": "img/196-200.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 7: Reading Comprehension)",
+    "question": "Where is the location where the letter was sent?",
+    "choices": [
+      "A) Lagos State, Nigeria",
+      "B) Oyo State, Nigeria",
+      "C) Ogun State, Nigeria"
+    ],
+    "correctAnswer": 0,
+    "image": "img/196-200.png"
+  },
+  {
+    "qType": "Section 2: Reading (Part 7: Reading Comprehension)",
+    "question": "What is the contract called that has been proposed in the letter that can commence business between the parties?",
+    "choices": [
+      "A) Memorandum of Work",
+      "B) Memorandum of Contractual Agreement",
+      "C) Memorandum of Understanding"
+    ],
+    "correctAnswer": 2,
+    "image": "img/196-200.png"
+  }
+]

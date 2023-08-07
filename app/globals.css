@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+form {
+  /* Optional: Add some spacing between the labels */
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-right: 10px; /* Adjust the spacing between the radio button and the letter */
+}
