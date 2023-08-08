@@ -3,11 +3,16 @@ import { MenuProps } from "./menuitems";
 
 interface Drop {
   submenu: MenuProps[];
+  dropdown: boolean;
 }
 
-function Dropdown({ submenu }: Drop) {
+function Dropdown({ submenu, dropdown }: Drop) {
   return (
-    <ul className="dropdown absolute bg-neutral-900 p-2 rounded top-[20px]">
+    <ul
+      className={`dropdown absolute bg-neutral-900 p-2 rounded top-[20px] ${
+        dropdown ? "block" : "hidden"
+      }`}
+    >
       {submenu.map((menu, index) => (
         <li key={index} className="menu-items">
           <Link href={menu.url}>{menu.title}</Link>

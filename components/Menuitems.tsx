@@ -12,10 +12,19 @@ interface MenuitemsProps {
 function Menuitems({ item }: MenuitemsProps) {
   const router = usePathname();
   const [activeLink, setActiveLink] = useState("home");
+  const [dropdown, setDropdown] = useState<boolean>(false);
+
   useEffect(() => {
     let currentLink = router.substring(1);
     setActiveLink(currentLink);
   }, [router]);
+
+  const drop = () => {
+    if (item.submenu) {
+      setDropdown((prevDrop) => !prevDrop);
+    }
+    return;
+  };
   return (
     <div className="relative">
       <li
@@ -25,12 +34,17 @@ function Menuitems({ item }: MenuitemsProps) {
       >
         {item.submenu ? (
           <>
-            <button type="button" aria-haspopup="menu">
+            <button
+              type="button"
+              aria-haspopup="menu"
+              onClick={drop}
+              aria-expanded={dropdown ? "true" : "false"}
+            >
               <Link href={item.url} className="nav-link">
                 {item.title}
               </Link>
             </button>
-            <Dropdown submenu={item.submenu} />
+            <Dropdown submenu={item.submenu} dropdown={dropdown} />
           </>
         ) : (
           <Link href={item.url} className="nav-link">
