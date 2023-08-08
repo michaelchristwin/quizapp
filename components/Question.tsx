@@ -128,8 +128,9 @@ function Question({ Data }: Qprops) {
           Prev
         </button>
         <button
-          className="bg-blue-700 hover:opacity-75 p-1 rounded"
+          className="bg-blue-700 hover:opacity-75 p-1 rounded disabled:bg-neutral-500"
           onClick={() => next(index)}
+          disabled={selectedOption != null ? false : true}
         >
           Next
         </button>

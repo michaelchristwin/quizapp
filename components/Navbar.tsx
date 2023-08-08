@@ -1,6 +1,8 @@
 import { menuitems } from "./menuitems";
 import dynamic from "next/dynamic";
-const Menuitems = dynamic(() => import("../components/Menuitems"));
+const Menuitems = dynamic(() => import("../components/Menuitems"), {
+  ssr: false,
+});
 
 function Navbar() {
   return (
