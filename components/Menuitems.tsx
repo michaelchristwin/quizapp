@@ -40,9 +40,7 @@ function Menuitems({ item }: MenuitemsProps) {
               onClick={drop}
               aria-expanded={dropdown ? "true" : "false"}
             >
-              <Link href={item.url} className="nav-link">
-                {item.title}
-              </Link>
+              {item.title}
             </button>
             <Dropdown submenu={item.submenu} dropdown={dropdown} />
           </>
