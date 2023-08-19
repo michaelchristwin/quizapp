@@ -28,9 +28,9 @@ function Menuitems({ item }: MenuitemsProps) {
   return (
     <div className="relative">
       <li
-        className={`lg:block hidden hover:text-white ${
-          activeLink === item.url ? "text-white" : "text-blue-500"
-        }`}
+        className={`lg:block hidden ${
+          !item.submenu ? "hover:text-white" : ""
+        } ${activeLink === item.url ? "text-white" : "text-blue-500"}`}
       >
         {item.submenu ? (
           <>
@@ -38,6 +38,7 @@ function Menuitems({ item }: MenuitemsProps) {
               type="button"
               aria-haspopup="menu"
               onClick={drop}
+              className="hover:text-white"
               aria-expanded={dropdown ? "true" : "false"}
             >
               {item.title}
