@@ -1,5 +1,7 @@
+import Link from "next/link";
 import { menuitems } from "./menuitems";
 import dynamic from "next/dynamic";
+import {} from "react-icons/";
 const Menuitems = dynamic(() => import("../components/Menuitems"), {
   ssr: false,
 });
@@ -12,6 +14,9 @@ function Navbar() {
           {menuitems.map((item, index) => (
             <Menuitems item={item} key={index} />
           ))}
+          <Link href={`/account`}>
+            <p>jj</p>
+          </Link>
         </ul>
       </nav>
     </div>
