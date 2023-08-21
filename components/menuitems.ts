@@ -7,7 +7,7 @@ export interface MenuProps {
 export const menuitems: MenuProps[] = [
   {
     title: "Home",
-    url: "",
+    url: "/",
   },
   {
     title: "Articles",

@@ -1,7 +1,8 @@
-import Link from "next/link";
 import { menuitems } from "./menuitems";
 import dynamic from "next/dynamic";
-import {} from "react-icons/";
+import Link from "next/link";
+import { BsFillPersonFill } from "react-icons/bs";
+
 const Menuitems = dynamic(() => import("../components/Menuitems"), {
   ssr: false,
 });
@@ -14,10 +15,12 @@ function Navbar() {
           {menuitems.map((item, index) => (
             <Menuitems item={item} key={index} />
           ))}
-          <Link href={`/account`}>
-            <p>jj</p>
-          </Link>
         </ul>
+        <button className="w-[30px] h-[30px] rounded-[50%] hover:opacity-75 flex justify-center bg-neutral-500 items-center mr-2">
+          <Link href={"/account"}>
+            <BsFillPersonFill size={20} />
+          </Link>
+        </button>
       </nav>
     </div>
   );

@@ -15,7 +15,7 @@ function Menuitems({ item }: MenuitemsProps) {
   const [dropdown, setDropdown] = useState<boolean>(false);
 
   useEffect(() => {
-    let currentLink = router.substring(1);
+    let currentLink = router.substring(0);
     setActiveLink(currentLink);
   }, [router]);
 
@@ -25,6 +25,7 @@ function Menuitems({ item }: MenuitemsProps) {
     }
     return;
   };
+  console.log(activeLink);
   return (
     <div className="relative">
       <li
