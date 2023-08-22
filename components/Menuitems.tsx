@@ -17,6 +17,7 @@ function Menuitems({ item }: MenuitemsProps) {
   useEffect(() => {
     let currentLink = router.substring(0);
     setActiveLink(currentLink);
+    setDropdown(false);
   }, [router]);
 
   const drop = () => {

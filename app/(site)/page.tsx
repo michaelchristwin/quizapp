@@ -18,7 +18,7 @@ function Home() {
         <ol className="list-decimal">
           <li>
             <p>
-              <span className="font-bold">Listening Comprehension:</span>
+              <span className="font-bold">Listening Comprehension: </span>
               This section evaluates your ability to understand spoken English
               in various contexts, such as conversations, lectures, and
               discussions.
@@ -26,7 +26,7 @@ function Home() {
           </li>
           <li>
             <p>
-              <span className="font-bold">Reading Comprehension:</span>
+              <span className="font-bold">Reading Comprehension: </span>
               The reading section assesses your understanding of written English
               through passages, articles, and documents on different topics.
             </p>
