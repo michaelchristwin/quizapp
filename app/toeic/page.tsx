@@ -3,6 +3,7 @@ import dynamic from "next/dynamic";
 const Question = dynamic(() => import("../../components/Question"), {
   ssr: false,
 });
+export const revalidate = 0;
 
 async function Test() {
   const Data = await getData();
