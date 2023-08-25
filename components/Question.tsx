@@ -18,7 +18,8 @@ function Question({ Data }: Qprops) {
   const [score, setScore] = useState<number>(scr);
   const [selectedOption, setSelectedOption] = useState<number | null>(null);
 
-  // console.log(index);
+  console.log(`${index} out of ${Data.length}`);
+  console.log(`Correct answer is ${Data[index].correct_answer}`);
 
   const next = (ind: number) => {
     if (index >= 0) {
@@ -88,7 +89,7 @@ function Question({ Data }: Qprops) {
     setScore((prevScore) => prevScore);
   };
 
-  console.log(score);
+  console.log(`Your Score is ${score}`);
 
   return (
     <div className="rounded-[20px] bg-neutral-900 w-[50vw] h-[90%] p-5 pb-[50px] mt-[80px] mb-[50px] space-y-3">
@@ -129,23 +130,34 @@ function Question({ Data }: Qprops) {
         ))}
       </div>
       <div className="flex justify-end">
-        <button
-          className={
-            index > 0
-              ? "bg-blue-700 hover:opacity-75 p-1 rounded mr-1"
-              : "hidden"
-          }
-          onClick={() => prev(index)}
-        >
-          Prev
-        </button>
-        <button
-          className="bg-blue-700 hover:opacity-75 p-1 rounded disabled:bg-neutral-500"
-          onClick={() => next(index)}
-          disabled={selectedOption != null ? false : true}
-        >
-          Next
-        </button>
+        {index != Data.length - 1 ? (
+          <>
+            <button
+              className={
+                index > 0
+                  ? "bg-blue-700 hover:opacity-75 p-1 rounded mr-1"
+                  : "hidden"
+              }
+              onClick={() => prev(index)}
+            >
+              Prev
+            </button>
+            <button
+              className="bg-blue-700 hover:opacity-75 p-1 rounded disabled:bg-neutral-500"
+              onClick={() => next(index)}
+              disabled={selectedOption != null ? false : true}
+            >
+              Next
+            </button>
+          </>
+        ) : (
+          <button
+            type="button"
+            className="bg-blue-700 hover:opacity-75 p-1 rounded"
+          >
+            Submit
+          </button>
+        )}
       </div>
     </div>
   );
