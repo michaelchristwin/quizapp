@@ -1,5 +1,6 @@
 "use client";
 import { QuestionProps } from "@/hooks/fetchData";
+import Popup from "./Popup";
 import Image from "next/image";
 import { useState } from "react";
 
@@ -151,12 +152,26 @@ function Question({ Data }: Qprops) {
             </button>
           </>
         ) : (
-          <button
-            type="button"
-            className="bg-blue-700 hover:opacity-75 p-1 rounded"
-          >
-            Submit
-          </button>
+          <>
+            <button
+              className={
+                index > 0
+                  ? "bg-blue-700 hover:opacity-75 p-1 rounded mr-1"
+                  : "hidden"
+              }
+              onClick={() => prev(index)}
+            >
+              Prev
+            </button>
+            <Popup>
+              <button
+                type="button"
+                className="bg-blue-700 hover:opacity-75 p-1 rounded"
+              >
+                Submit
+              </button>
+            </Popup>
+          </>
         )}
       </div>
     </div>
