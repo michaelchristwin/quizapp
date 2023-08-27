@@ -11,20 +11,24 @@ interface Qprops {
 function Question({ Data }: Qprops) {
   const initialValue = localStorage.getItem("index") || "0";
   const initialScore = localStorage.getItem("score") || "0";
+  const initialAnswers = localStorage.getItem("answers") || "[]";
 
   const scr = parseInt(initialScore as string);
   const lol = parseInt(initialValue as string);
+  const storedAns = JSON.parse(initialAnswers as string);
   const [index, setIndex] = useState<number>(lol);
-  const [answers, setAnswers] = useState({});
+  const [answers, setAnswers] = useState<number[]>([]);
   const [score, setScore] = useState<number>(scr);
   const [selectedOption, setSelectedOption] = useState<number | null>(null);
 
   console.log(`${index} out of ${Data.length}`);
   console.log(`Correct answer is ${Data[index].correct_answer}`);
-  console.log(`Your Score is ${score}`);
+  console.log(`Your Score is ${score} out of ${Data.length}`);
+  console.log(answers);
+  console.log(storedAns);
 
   const next = (ind: number) => {
-    if (index >= 0) {
+    if (index >= 0 && index != Data.length - 1) {
       setIndex((prevIndex) => {
         const newIndex = prevIndex + 1;
         localStorage.setItem("index", newIndex.toString());
@@ -32,10 +36,11 @@ function Question({ Data }: Qprops) {
       });
       setSelectedOption(null);
       mark(ind);
-      localStorage.setItem("score", score.toString());
+      localStorage.setItem("answers", JSON.stringify(answers));
+    } else if (index == 12) {
+      mark(ind);
     }
     setIndex((prevIndex) => prevIndex);
-    localStorage.setItem("score", score.toString());
   };
 
   const prev = (currindex: number) => {
@@ -46,28 +51,20 @@ function Question({ Data }: Qprops) {
         return newindex;
       });
       const boy = currindex - 1;
-      const useranswers: [] | never[] = Object.values(answers);
-      setSelectedOption(useranswers[boy]);
+      setSelectedOption(answers[boy]);
       unMark(boy);
-      localStorage.setItem("score", score.toString());
     }
     setIndex((prevIndex) => prevIndex);
-    localStorage.setItem("score", score.toString());
   };
 
-  const handleAnswerSelect = (index: number, selectedAnswer: number) => {
-    const question = index + 1;
-    setAnswers((prevAnswers) => ({
-      ...prevAnswers,
-      [question]: selectedAnswer,
-    }));
+  const handleAnswerSelect = (selectedAnswer: number) => {
+    setAnswers((prevAnswers) => [...prevAnswers, selectedAnswer]);
     setSelectedOption(selectedAnswer);
   };
 
   const mark = (ind: number) => {
     const allanswers = Data.map((qtn) => qtn.correct_answer);
-    const useranswers = Object.values(answers);
-    if (allanswers[ind] === useranswers[ind]) {
+    if (allanswers[ind] === answers[ind]) {
       setScore((prevScore) => {
         const newscore = prevScore + 1;
         localStorage.setItem("score", newscore.toString());
@@ -80,20 +77,22 @@ function Question({ Data }: Qprops) {
 
   const unMark = (ind: number) => {
     const allanswers = Data.map((qtn) => qtn.correct_answer);
-    const useranswers = Object.values(answers);
-    if (allanswers[ind] === useranswers[ind]) {
+    if (allanswers[ind] === answers[ind]) {
       setScore((prevScore) => {
         const newscore = prevScore - 1;
         localStorage.setItem("score", newscore.toString());
         return newscore;
       });
+      setAnswers((prevAnswers) => {
+        const newarray = [...prevAnswers];
+        newarray.pop();
+        localStorage.setItem("answers", JSON.stringify(newarray));
+
+        return newarray;
+      });
     }
 
     setScore((prevScore) => prevScore);
-  };
-
-  const handleSubmit = (ind: number) => {
-    mark(ind);
   };
 
   return (
@@ -127,7 +126,7 @@ function Question({ Data }: Qprops) {
               name="option"
               value={index}
               checked={selectedOption === place}
-              onChange={() => handleAnswerSelect(index, place)}
+              onChange={() => handleAnswerSelect(place)}
               className="cursor-pointer border before:rounded-[50%] before:w-[20px] before:h-[20px]"
             />
             {choice}
@@ -172,7 +171,7 @@ function Question({ Data }: Qprops) {
                 type="button"
                 className="bg-blue-700 hover:opacity-75 p-1 rounded disabled:bg-neutral-500"
                 disabled={selectedOption != null ? false : true}
-                // onClick={() => handleSubmit(index)}
+                onClick={() => next(index)}
               >
                 Submit
               </button>
