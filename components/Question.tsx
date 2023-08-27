@@ -21,6 +21,7 @@ function Question({ Data }: Qprops) {
 
   console.log(`${index} out of ${Data.length}`);
   console.log(`Correct answer is ${Data[index].correct_answer}`);
+  console.log(`Your Score is ${score}`);
 
   const next = (ind: number) => {
     if (index >= 0) {
@@ -76,6 +77,7 @@ function Question({ Data }: Qprops) {
 
     setScore((prevScore) => prevScore);
   };
+
   const unMark = (ind: number) => {
     const allanswers = Data.map((qtn) => qtn.correct_answer);
     const useranswers = Object.values(answers);
@@ -90,7 +92,9 @@ function Question({ Data }: Qprops) {
     setScore((prevScore) => prevScore);
   };
 
-  console.log(`Your Score is ${score}`);
+  const handleSubmit = (ind: number) => {
+    mark(ind);
+  };
 
   return (
     <div className="rounded-[20px] bg-neutral-900 w-[50vw] h-[90%] p-5 pb-[50px] mt-[80px] mb-[50px] space-y-3">
@@ -163,10 +167,12 @@ function Question({ Data }: Qprops) {
             >
               Prev
             </button>
-            <Popup>
+            <Popup score={score} total={Data.length}>
               <button
                 type="button"
-                className="bg-blue-700 hover:opacity-75 p-1 rounded"
+                className="bg-blue-700 hover:opacity-75 p-1 rounded disabled:bg-neutral-500"
+                disabled={selectedOption != null ? false : true}
+                // onClick={() => handleSubmit(index)}
               >
                 Submit
               </button>

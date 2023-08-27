@@ -10,7 +10,7 @@ const Menuitems = dynamic(() => import("../components/Menuitems"), {
 function Navbar() {
   return (
     <div>
-      <nav className="bg-neutral-900 fixed top-0 lg:py-4 py-3 w-full z-10 lg:flex block lg:justify-between">
+      <nav className="bg-neutral-900 fixed top-0 lg:py-4 py-3 w-full z-10 lg:flex block lg:justify-between border-b-[0.01px] border-neutral-700/80">
         <ul className="lg:flex block space-x-4 lg:mx-8">
           {menuitems.map((item, index) => (
             <Menuitems item={item} key={index} />

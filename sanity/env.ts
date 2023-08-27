@@ -1,5 +1,3 @@
-//import { DATASET, PROJECT_ID } from "./venv";
-
 export const apiVersion =
   process.env.NEXT_PUBLIC_SANITY_API_VERSION || "2023-08-04";
 
