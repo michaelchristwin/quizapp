@@ -52,7 +52,7 @@ function Question({ Data }: Qprops) {
       });
       const boy = currindex - 1;
       setSelectedOption(answers[boy]);
-      unMark(boy);
+      unMark(currindex);
     }
     setIndex((prevIndex) => prevIndex);
   };
@@ -77,7 +77,7 @@ function Question({ Data }: Qprops) {
 
   const unMark = (ind: number) => {
     const allanswers = Data.map((qtn) => qtn.correct_answer);
-    if (allanswers[ind] === answers[ind]) {
+    if (allanswers[ind] === answers[ind] && ind != 0) {
       setScore((prevScore) => {
         const newscore = prevScore - 1;
         localStorage.setItem("score", newscore.toString());
@@ -90,6 +90,9 @@ function Question({ Data }: Qprops) {
 
         return newarray;
       });
+    } else if (ind === 1) {
+      setScore(0);
+      localStorage.setItem("score", "0");
     }
 
     setScore((prevScore) => prevScore);
