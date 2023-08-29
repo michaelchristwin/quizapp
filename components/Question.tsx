@@ -9,6 +9,7 @@ interface Qprops {
 }
 
 function Question({ Data }: Qprops) {
+  localStorage.clear();
   const initialValue = localStorage.getItem("index") || "0";
   const initialScore = localStorage.getItem("score") || "0";
   const initialAnswers = localStorage.getItem("answers") || "[]";
@@ -17,30 +18,29 @@ function Question({ Data }: Qprops) {
   const lol = parseInt(initialValue as string);
   const storedAns = JSON.parse(initialAnswers as string);
   const [index, setIndex] = useState<number>(lol);
-  const [answers, setAnswers] = useState<number[]>([]);
+  const [answers, setAnswers] = useState({});
   const [score, setScore] = useState<number>(scr);
   const [selectedOption, setSelectedOption] = useState<number | null>(null);
 
   console.log(`${index} out of ${Data.length}`);
   console.log(`Correct answer is ${Data[index].correct_answer}`);
   console.log(`Your Score is ${score} out of ${Data.length}`);
-  console.log(answers);
+  // console.log(answers);
   console.log(storedAns);
 
   const next = (ind: number) => {
-    if (index >= 0 && index != Data.length - 1) {
+    if (index >= 0) {
       setIndex((prevIndex) => {
         const newIndex = prevIndex + 1;
         localStorage.setItem("index", newIndex.toString());
         return newIndex;
       });
       setSelectedOption(null);
-      mark(ind);
-      localStorage.setItem("answers", JSON.stringify(answers));
-    } else if (index == 12) {
-      mark(ind);
+      // mark(ind);
+      localStorage.setItem("score", score.toString());
     }
     setIndex((prevIndex) => prevIndex);
+    localStorage.setItem("score", score.toString());
   };
 
   const prev = (currindex: number) => {
@@ -51,52 +51,54 @@ function Question({ Data }: Qprops) {
         return newindex;
       });
       const boy = currindex - 1;
-      setSelectedOption(answers[boy]);
-      unMark(currindex);
+      const useranswers: [] | never[] = Object.values(answers);
+      setSelectedOption(useranswers[boy]);
+      // unMark(boy);
+      localStorage.setItem("score", score.toString());
     }
     setIndex((prevIndex) => prevIndex);
+    localStorage.setItem("score", score.toString());
   };
 
-  const handleAnswerSelect = (selectedAnswer: number) => {
-    setAnswers((prevAnswers) => [...prevAnswers, selectedAnswer]);
+  const handleAnswerSelect = (index: number, selectedAnswer: number) => {
+    const question = index + 1;
+    setAnswers((prevAnswers) => ({
+      ...prevAnswers,
+      [question]: selectedAnswer,
+    }));
     setSelectedOption(selectedAnswer);
   };
 
-  const mark = (ind: number) => {
-    const allanswers = Data.map((qtn) => qtn.correct_answer);
-    if (allanswers[ind] === answers[ind]) {
-      setScore((prevScore) => {
-        const newscore = prevScore + 1;
-        localStorage.setItem("score", newscore.toString());
-        return newscore;
-      });
-    }
+  // const mark = (ind: number) => {
+  //   const allanswers = Data.map((qtn) => qtn.correct_answer);
+  //   if (allanswers[ind] === answers[ind]) {
+  //     setScore((prevScore) => {
+  //       const newscore = prevScore + 1;
+  //       localStorage.setItem("score", newscore.toString());
+  //       return newscore;
+  //     });
+  //   }
+  // };
 
-    setScore((prevScore) => prevScore);
-  };
-
-  const unMark = (ind: number) => {
-    const allanswers = Data.map((qtn) => qtn.correct_answer);
-    if (allanswers[ind] === answers[ind] && ind != 0) {
-      setScore((prevScore) => {
-        const newscore = prevScore - 1;
-        localStorage.setItem("score", newscore.toString());
-        return newscore;
-      });
-      setAnswers((prevAnswers) => {
-        const newarray = [...prevAnswers];
-        newarray.pop();
-        localStorage.setItem("answers", JSON.stringify(newarray));
-
-        return newarray;
-      });
-    } else if (ind === 1) {
-      setScore(0);
-      localStorage.setItem("score", "0");
-    }
-
-    setScore((prevScore) => prevScore);
-  };
+  // const unMark = (ind: number) => {
+  //   const allanswers = Data.map((qtn) => qtn.correct_answer);
+  //   if (allanswers[ind] === answers[ind] && ind != 0) {
+  //     setScore((prevScore) => {
+  //       const newscore = prevScore - 1;
+  //       localStorage.setItem("score", newscore.toString());
+  //       return newscore;
+  //     });
+  //     setAnswers((prevAnswers) => {
+  //       const newarray = [...prevAnswers];
+  //       newarray.pop();
+  //       localStorage.setItem("answers", JSON.stringify(newarray));
+  //       return newarray;
+  //     });
+  //   } else if (ind === 1) {
+  //     setScore(0);
+  //     localStorage.setItem("score", "0");
+  //   }
+  // };
 
   return (
     <div className="rounded-[20px] bg-neutral-900 w-[50vw] h-[90%] p-5 pb-[50px] mt-[80px] mb-[50px] space-y-3">
@@ -129,7 +131,7 @@ function Question({ Data }: Qprops) {
               name="option"
               value={index}
               checked={selectedOption === place}
-              onChange={() => handleAnswerSelect(place)}
+              onChange={() => handleAnswerSelect(index, place)}
               className="cursor-pointer border before:rounded-[50%] before:w-[20px] before:h-[20px]"
             />
             {choice}
