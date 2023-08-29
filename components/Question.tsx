@@ -9,23 +9,20 @@ interface Qprops {
 }
 
 function Question({ Data }: Qprops) {
-  localStorage.clear();
+  //localStorage.clear();
   const initialValue = localStorage.getItem("index") || "0";
-  const initialScore = localStorage.getItem("score") || "0";
-  const initialAnswers = localStorage.getItem("answers") || "[]";
 
-  const scr = parseInt(initialScore as string);
+  const initialAnswers = localStorage.getItem("answers") || "{}";
   const lol = parseInt(initialValue as string);
   const storedAns = JSON.parse(initialAnswers as string);
   const [index, setIndex] = useState<number>(lol);
-  const [answers, setAnswers] = useState({});
-  const [score, setScore] = useState<number>(scr);
+  const [answers, setAnswers] = useState(storedAns as object);
   const [selectedOption, setSelectedOption] = useState<number | null>(null);
 
   console.log(`${index} out of ${Data.length}`);
   console.log(`Correct answer is ${Data[index].correct_answer}`);
-  console.log(`Your Score is ${score} out of ${Data.length}`);
-  // console.log(answers);
+  console.log();
+  console.log(answers);
   console.log(storedAns);
 
   const next = (ind: number) => {
@@ -36,11 +33,8 @@ function Question({ Data }: Qprops) {
         return newIndex;
       });
       setSelectedOption(null);
-      // mark(ind);
-      localStorage.setItem("score", score.toString());
     }
     setIndex((prevIndex) => prevIndex);
-    localStorage.setItem("score", score.toString());
   };
 
   const prev = (currindex: number) => {
@@ -51,13 +45,10 @@ function Question({ Data }: Qprops) {
         return newindex;
       });
       const boy = currindex - 1;
-      const useranswers: [] | never[] = Object.values(answers);
+      const useranswers = Object.values(answers);
       setSelectedOption(useranswers[boy]);
-      // unMark(boy);
-      localStorage.setItem("score", score.toString());
     }
     setIndex((prevIndex) => prevIndex);
-    localStorage.setItem("score", score.toString());
   };
 
   const handleAnswerSelect = (index: number, selectedAnswer: number) => {
@@ -67,38 +58,8 @@ function Question({ Data }: Qprops) {
       [question]: selectedAnswer,
     }));
     setSelectedOption(selectedAnswer);
+    localStorage.setItem("answers", JSON.stringify(answers));
   };
-
-  // const mark = (ind: number) => {
-  //   const allanswers = Data.map((qtn) => qtn.correct_answer);
-  //   if (allanswers[ind] === answers[ind]) {
-  //     setScore((prevScore) => {
-  //       const newscore = prevScore + 1;
-  //       localStorage.setItem("score", newscore.toString());
-  //       return newscore;
-  //     });
-  //   }
-  // };
-
-  // const unMark = (ind: number) => {
-  //   const allanswers = Data.map((qtn) => qtn.correct_answer);
-  //   if (allanswers[ind] === answers[ind] && ind != 0) {
-  //     setScore((prevScore) => {
-  //       const newscore = prevScore - 1;
-  //       localStorage.setItem("score", newscore.toString());
-  //       return newscore;
-  //     });
-  //     setAnswers((prevAnswers) => {
-  //       const newarray = [...prevAnswers];
-  //       newarray.pop();
-  //       localStorage.setItem("answers", JSON.stringify(newarray));
-  //       return newarray;
-  //     });
-  //   } else if (ind === 1) {
-  //     setScore(0);
-  //     localStorage.setItem("score", "0");
-  //   }
-  // };
 
   return (
     <div className="rounded-[20px] bg-neutral-900 w-[50vw] h-[90%] p-5 pb-[50px] mt-[80px] mb-[50px] space-y-3">
@@ -171,7 +132,7 @@ function Question({ Data }: Qprops) {
             >
               Prev
             </button>
-            <Popup score={score} total={Data.length}>
+            <Popup total={Data.length}>
               <button
                 type="button"
                 className="bg-blue-700 hover:opacity-75 p-1 rounded disabled:bg-neutral-500"
