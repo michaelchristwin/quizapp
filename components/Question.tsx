@@ -9,21 +9,23 @@ interface Qprops {
 }
 
 function Question({ Data }: Qprops) {
-  useEffect(() => {
-    window.addEventListener("beforeunload", function (event) {
-      event.preventDefault();
-      event.returnValue =
-        "This page is asking you to confirm that you want to leave — information you've entered will not be saved.";
-    });
-  }, []);
-
   const [index, setIndex] = useState<number>(0);
   const [answers, setAnswers] = useState({} as object);
   const [selectedOption, setSelectedOption] = useState<number | null>(null);
-
   console.log(`${index} out of ${Data.length}`);
   console.log(`Correct answer is ${Data[index].correct_answer}`);
   console.log(answers);
+
+  useEffect(() => {
+    if (index != 0 || selectedOption != null) {
+      window.addEventListener("beforeunload", function (event) {
+        event.preventDefault();
+        event.returnValue =
+          "This page is asking you to confirm that you want to leave — information you've entered will not be saved.";
+      });
+    }
+    return;
+  }, [index, selectedOption]);
 
   const next = (ind: number) => {
     if (index >= 0) {
