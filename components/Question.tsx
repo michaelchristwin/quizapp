@@ -2,34 +2,33 @@
 import { QuestionProps } from "@/hooks/fetchData";
 import Popup from "./Popup";
 import Image from "next/image";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 interface Qprops {
   Data: QuestionProps[];
 }
 
 function Question({ Data }: Qprops) {
-  //localStorage.clear();
-  const initialValue = localStorage.getItem("index") || "0";
+  useEffect(() => {
+    window.addEventListener("beforeunload", function (event) {
+      event.preventDefault();
+      event.returnValue =
+        "This page is asking you to confirm that you want to leave — information you've entered will not be saved.";
+    });
+  }, []);
 
-  const initialAnswers = localStorage.getItem("answers") || "{}";
-  const lol = parseInt(initialValue as string);
-  const storedAns = JSON.parse(initialAnswers as string);
-  const [index, setIndex] = useState<number>(lol);
-  const [answers, setAnswers] = useState(storedAns as object);
+  const [index, setIndex] = useState<number>(0);
+  const [answers, setAnswers] = useState({} as object);
   const [selectedOption, setSelectedOption] = useState<number | null>(null);
 
   console.log(`${index} out of ${Data.length}`);
   console.log(`Correct answer is ${Data[index].correct_answer}`);
-  console.log();
   console.log(answers);
-  console.log(storedAns);
 
   const next = (ind: number) => {
     if (index >= 0) {
       setIndex((prevIndex) => {
         const newIndex = prevIndex + 1;
-        localStorage.setItem("index", newIndex.toString());
         return newIndex;
       });
       setSelectedOption(null);
@@ -41,7 +40,7 @@ function Question({ Data }: Qprops) {
     if (index > 0) {
       setIndex((prevIndex) => {
         const newindex = prevIndex - 1;
-        localStorage.setItem("index", newindex.toString());
+
         return newindex;
       });
       const boy = currindex - 1;
@@ -58,7 +57,6 @@ function Question({ Data }: Qprops) {
       [question]: selectedAnswer,
     }));
     setSelectedOption(selectedAnswer);
-    localStorage.setItem("answers", JSON.stringify(answers));
   };
 
   return (
