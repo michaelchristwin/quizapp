@@ -2,7 +2,7 @@ import Link from "next/link";
 
 function Start() {
   return (
-    <div className="block w-[50%] mx-auto my-[9%] space-y-3">
+    <div className="block w-[50%] mx-auto mt-[9%] space-y-3">
       <h1 className="font-bold text-[26px]">Welcome to the TOEIC Quiz</h1>
       <p>
         Are you ready to test your English language skills? This TOEIC quiz is
@@ -42,7 +42,7 @@ function Start() {
       </ul>
       <p>{`Click the "Start Quiz" button when you're ready to begin. Best of luck!`}</p>
       <Link href={"toeic/start"}>
-        <button className="bg-blue-500 p-2 block rounded-[5px] mx-auto mt-4">
+        <button className="bg-blue-500 p-2 block rounded-[5px] mt-6">
           Start Quiz
         </button>
       </Link>
