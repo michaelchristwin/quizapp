@@ -15,7 +15,7 @@ function Navbar() {
     <div
       className={
         sideOpen
-          ? "fixed top-0 left-0 w-full h-full bg-neutral-900/90 backdrop-blur z-[14]"
+          ? "fixed top-0 left-0 w-full h-full bg-neutral-900/90 backdrop-blur"
           : ""
       }
     >
