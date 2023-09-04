@@ -14,7 +14,7 @@ export const menuitems: MenuProps[] = [
     url: "/articles",
   },
   {
-    title: "Tutorials",
+    title: "Tests",
     url: "#",
     submenu: [
       {
