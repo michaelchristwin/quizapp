@@ -26,7 +26,7 @@ function Menuitems({ item }: MenuitemsProps) {
     }
     return;
   };
-  console.log(activeLink);
+  // console.log(activeLink);
   return (
     <div className="relative">
       <li

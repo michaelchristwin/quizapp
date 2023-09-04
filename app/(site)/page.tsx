@@ -1,6 +1,6 @@
 function Home() {
   return (
-    <div className="mt-[80px] flex justify-center">
+    <div className="flex justify-center">
       <div className="p-5 space-y-3 w-[50%]">
         <h1 className="font-bold text-[26px]">
           Welcome to TOEIC Test Preparation
